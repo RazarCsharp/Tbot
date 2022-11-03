@@ -9,6 +9,6 @@ namespace TbotForHW.Utilities
     public static class TextLengthReader
     {
 
-        public static string Length(string input) => input.Length.ToString();
+        public static string Length(string input) => "Cимволов в вашем сообщении : " + input.Length.ToString();
     }
 }
