@@ -36,7 +36,7 @@ namespace TbotForHW.Utilities
                 }
                 else { a = "WTF was that? : " + input; }
             }
-            return a;
+            return "Сумма чисел : " + a;
         }
     }
 }
